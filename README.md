@@ -5,4 +5,4 @@ This repository contains beginner level programs developed by Ishwari B. Khopade
 
 # How to Compile & Run
 
-python Assignment1.py
+python Assignment1_1.py
