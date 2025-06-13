@@ -1,20 +1,19 @@
 # Write a program which contains one function named as Add() which accepts 2 numbers from user and return addition of that 2 numbers
 
-def Add():
+def Add(iNum1, iNum2):
+    Ans = 0
+    Ans = iNum1 + iNum2
+
+    return Ans
+
+def main():
     print("Enter 1st Number")
     iNo1 = int(input())
 
     print("Enter 2nd Number")
     iNo2 = int(input())
 
-    Ans = 0
-    Ans = iNo1 + iNo2
-
-    return Ans
-
-def main():
-
-    iAns = Add()
+    iAns = Add(iNo1, iNo2)
 
     print("Addition is:", iAns)
 
